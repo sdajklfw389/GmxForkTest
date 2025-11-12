@@ -3,4 +3,4 @@
 	url = https://github.com/gmx-io/gmx-contracts.git
 [submodule "lib/forge-std"]
 	path = lib/forge-std
-	url = https://github.com/foundry-rs/forge-std
+	url = https://github.com/sdajklfw389/forge-std-fix-0612-compat-issue.git
