@@ -1,0 +1,16 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib", "lib/gmx-contracts"]
+allow_paths = ["lib"]  # Allow imports from lib directory
+
+# Fork configuration - you can fork mainnet or arbitrum
+# For GMX, they're primarily on Arbitrum
+[profile.fork]
+fork_url = "https://arb1.arbitrum.io/rpc"  # Arbitrum mainnet RPC
+# Or use a provider like Alchemy/Infura:
+# fork_url = "https://arb-mainnet.g.alchemy.com/v2/YOUR_API_KEY"
+
+# You can also fork at a specific block number
+# fork_block_number = 12345678
+
